@@ -3,7 +3,7 @@ set :repo_url, 'git@github.com:kitchen/caprvmsample.git'
 
 # ask :branch, proc { `git rev-parse --abbrev-ref HEAD`.chomp }
 
-set :deploy_to, '/home/rails/caprvmsample'
+set :deploy_to, '/home/kitchen/caprvmsample'
 
 # set :scm, :git
 
